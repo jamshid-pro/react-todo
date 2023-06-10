@@ -1,0 +1,96 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+.header {
+  border: 1px solid #fff;
+  padding: 20px auto;
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+  color:#fff;
+  font-size: 45px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+}
+
+.input {
+  width: 100%;
+  border-radius:20px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.button {
+  padding: 12px 20px;
+  background-color:green;
+  color: #fff;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.items {
+  padding: 20px;
+  border: 1px solid #fff;
+}
+
+.item {
+  margin: 20px auto;
+  border: 1px solid #fff;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.delBtn {
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px;
+  background-color: brown;
+  color:#fff;
+  border:none;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+
+}
+
+.item__title {
+  font-size: 28px;
+}
+
+.button:hover {
+  background-color: rgb(11, 198, 11);
+}
+.delBtn:hover {
+  background-color: rgb(215, 33, 33);
+}
+
+@media (max-width: 520px) {
+  .form {
+    flex-direction: column;
+  }
+  .input {
+    padding: 20px;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .item__title {
+    font-size: 22px;
+  }
+}
